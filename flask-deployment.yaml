@@ -17,7 +17,8 @@ spec:
         app: myflaskapp
     spec:
       containers:
-      - image: misu3108/flask-server:1
+      - image: misu3108/gunicorn-server:1
         name: flask-server
         ports:
         - containerPort: 5000
+      
