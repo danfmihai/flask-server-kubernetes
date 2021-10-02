@@ -11,7 +11,7 @@ kubectl get -n flaskapp pods
 kubectl get -n flaskapp svc
 sleep 2
 pod_name=$(kubectl get -n flaskapp pods | grep -i myflaskapp | awk '{print $1}')
-
+echo
 kubectl logs -n flaskapp $pod_name
-
+echo
 echo "Done!"
