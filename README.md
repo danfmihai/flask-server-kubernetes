@@ -14,3 +14,8 @@ Make sure you are running from the master node:
 `./install.sh`
 
 Also attached in the repo is the Dockerfile for the image used in the pod to run the flask app.
+
+## To destroy the pod and service
+
+
+`chmod+x destroy.sh; ./destroy.sh`
