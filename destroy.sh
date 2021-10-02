@@ -14,6 +14,5 @@ kubectl get -n flaskapp svc
 kubectl delete namespace flaskapp
 sleep 2
 
-
 echo "Everthing is deleted!"
 echo
