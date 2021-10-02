@@ -18,4 +18,4 @@ Also attached in the repo is the Dockerfile for the image used in the pod to run
 ## To destroy the pod and service
 
 
-`chmod+x destroy.sh; ./destroy.sh`
+`chmod +x destroy.sh; ./destroy.sh`
